@@ -1,7 +1,7 @@
 <?php
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
-# Copyright (c) 2008 Steven Tlucek
+# Copyright (c) 2008-2015 Steven Tlucek
 #
 # This work is licensed under the Creative Commons
 # Attribution-Share Alike 3.0 Unported License.
@@ -17,8 +17,9 @@ $this->registerModule(
 	/* Name */			"Flavin",
 	/* Description*/		"Flavin in pink, blue or green",
 	/* Author */			"Steven Tlucek, Pierre Van Glabeke",
-	/* Version */			'1.4',
+	/* Version */			'1.5',
 	array(
-		'type'		=>		'theme'
+		'type'	 =>	'theme',
+		'tplset' => 'mustek'
 	)
 );
