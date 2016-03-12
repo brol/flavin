@@ -1,7 +1,7 @@
 /*
 # -- BEGIN LICENSE BLOCK ----------------------------------
 #
-# Copyright (c) 2008-2015 Steven Tlucek
+# Copyright (c) 2008-2016 Steven Tlucek
 #
 # This work is licensed under the Creative Commons
 # Attribution-Share Alike 3.0 Unported License.
@@ -18,7 +18,7 @@ body {
 	padding: 0;
 	text-align : center;
 	font : 62.5% Arial, Helvetica, Verdana, sans-serif;
-	color : #OOO;
+	color : #000;
 	line-height : 190%;
 }
 
@@ -100,7 +100,7 @@ pre { overflow: auto; width: 100%; height: auto; }
 	float : left;
 	background-color : transparent;
 }
-#breadcrumb {padding:0 0 0 11px;margin:13px 0 0 0;}
+#breadcrumb {padding:0 0 0 11px;margin:13px 0 0 0;width:450px;}
 #content {
 	margin : 0 215px 0 0;
 	padding-left : 11px;
